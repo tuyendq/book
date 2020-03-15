@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -16,6 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuyendq/book/publiclibrary/"
+    "url": "https://github.com/tuyendq/book.git"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
